@@ -1,0 +1,79 @@
+body {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-family: cursive;
+    color: white;
+    background-color: #B9A9F5;
+}
+#logo {
+    outline-color: invert;
+}
+a {
+    text-decoration: none;
+    color: paleturquoise;
+}
+header .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px;
+    background: #7902A8;
+    color: white;
+}
+nav {
+    display: flex;
+}
+.menu {
+    display: flex;
+}
+.menu p {
+     margin-left: 10px;
+}
+.menu p a {
+    display: block;
+    padding: 10px;
+    background: #E3097A;
+}
+h1 {
+   text-align: center;
+   margin-top: 50px;
+   font-family: papyrus;
+   font-size: 200%;
+   background: 20px aliceblue;
+   color: black;
+}
+#historia {
+    display: flex;
+}
+#p2 {
+    padding-top: 100px;
+    padding-left: 30px;
+}
+#p3 {
+    padding-top: 100px;
+    padding-left: 30px;
+}
+#jk{
+    display: flex;
+}
+#livros{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+.ftopay {
+    padding-left:250px ;
+}
+#adap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+}
+footer {
+    background-color: #783DB8;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
